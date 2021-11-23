@@ -5,7 +5,7 @@ Với biến chỉ tuổi của khách là age, biến chỉ thu nhập là inco
 hãy viết biểu thức logic để kiểm tra một khách hàng có được vay vốn hay không?
 '''
 age= int(input("How old are you?"))
-income= int(input("How much is your annual income? ($)"))
+income= float(input("How much is your annual income? ($)"))
 if age>18 and income>=2500:
     print("Khách hàng đủ điều kiện vay vồn.")
 else: print("Xin lỗi. Bạn chưa đủ điều kiện vay vốn")
