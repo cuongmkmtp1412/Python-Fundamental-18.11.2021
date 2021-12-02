@@ -1,3 +1,4 @@
+#Đoàn Ngọc Cường- 27/11/2021
 '''
 Bài 01. Lập chương trình thực hiện công việc sau:
     1. Nhập ba số a, b, c bất kì từ bàn phím
@@ -13,3 +14,6 @@ elif delta == 0:
     print(f'Phương trình có nghiệm kép x_1= x_2 = {-b/(2*a)}')
 else: 
     print(f"Phương trình có 2 nghiệm phức phân biệt là x_1 = {complex(-b,math.sqrt(-delta))/(2*a)} và x_2 = {complex(-b,-math.sqrt(-delta))/(2*a)} ")
+
+#bài đầu tiên từ khi học anh Hoàn đến giờ ko được điểm full, chỉ được 300/500. 
+#Thiếu trường hợp a == 0 một cách ngu ngốc. 
