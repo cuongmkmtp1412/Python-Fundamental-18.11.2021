@@ -6,3 +6,10 @@ Bài 01. Viết chương trình thay thế
 str_input = input("Enter a string ")
 str_replace = str_input.replace(str_input[0], "$")
 print(str_replace)    
+
+'''
+str= 'phamphu'
+z= str[0]+ str[1:].replace(str[0], '$')
+print(z)
+
+'''

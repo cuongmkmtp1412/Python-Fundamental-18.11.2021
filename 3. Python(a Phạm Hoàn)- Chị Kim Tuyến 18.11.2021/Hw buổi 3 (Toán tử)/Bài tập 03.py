@@ -6,6 +6,6 @@ Lưu ý: Khi nhập giá trị để test, cần thực hiện các trường h�
     - TH1: a > 0, b < 0
     - TH2: a < 0, b > 0
     - TH3: a < 0, b < 0   '''
-a, b= int(input("Enter int a")), int(input("Enter int b"))
-print(a//b)
-print(a%b)
+a, b= int(input("Enter int a: ")), int(input("Enter int b: "))
+print(a // b)
+print(a % b)

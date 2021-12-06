@@ -14,3 +14,21 @@ for i in str_input:
                         # -end: Kết thúc sau khi print (Mđ: '\n')
 print()             # print() để trong vs code xuống dòng nhìn cho đẹp. 
                     #str_input không hề thay đổi
+
+# Điểm chỉ được 300/500: Đề yêu cầu ghép các ký tự thành string mới rồi mới print- chứ ko phải print các ký tự. 
+# sửa 
+str_input =  input("Enter a string: ")
+temp_str = ""
+for i in str_input: 
+    if i.isupper() is True:    
+        temp_str += i.lower()           
+    else: 
+        temp_str += i.upper()
+print(temp_str)
+
+'''
+@Phạm Hoàn
+Trong khi lập trình. In ra luôn luôn chỉ là phụ.
+Kiểu để debug, để thấy đc kết quả như nào thôi
+In ra chỉ là để show ra xem nó thế nào.
+'''

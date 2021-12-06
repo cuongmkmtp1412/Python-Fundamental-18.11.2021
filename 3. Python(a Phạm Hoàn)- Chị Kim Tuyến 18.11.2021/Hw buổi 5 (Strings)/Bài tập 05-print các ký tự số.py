@@ -8,3 +8,12 @@ for i in str_input:
         print(i, end=" ")
 print()                   #Dòng này để print trong vs code cho đẹp.
 #Làm sao để print: "Các ký tự số trong chuỗi vừa nhập là: ...." 
+
+#hoặc Cách 2 : 
+flag = False    #  Có thể thay True = 0, 1, 2 tuỳ ý hoặc count = 0 # ko có ký tự số. 
+for i in str_input:
+    if '0' <= i <= '9':
+        flag = True     # count =+ 1
+        print(i, end='')
+if flag == False:         #count == 0 
+    print("No have number")
