@@ -14,3 +14,13 @@ list_one = inputed_list[:n]
 list_two = inputed_list[n:]
 print(list_one)
 print(list_two)
+
+'''
+Nhận xét
+1 nhận xét riêng tư
+
+Epsilon Bit6 thg 12
+ko check điều kiện của n à?
+
+>>> Tức là check điểu kiện của n xem n có lớn hơn n ban đầu không. 
+'''

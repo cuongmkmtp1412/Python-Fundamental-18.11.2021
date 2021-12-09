@@ -33,7 +33,7 @@ inputed_list.pop(5)  <=>   del inputed_list.pop(5)    , mặc định pop() xoá
 x = inputed_list.pop(5)   # xoá phần tử ở vị trí thứ 5 và gán giá trị đã xoá vào x. 
 inputed_list.clear()  >>> print(inputed_list)   >>> []
 
-# Đảo ngược list : list.reverse() method, sắp xếp list: list.sort() method (thay đổi trực tiếp list ban đầu) and sorted() function (giữ nguyên list ban đầu)  
+# Đảo ngược list : list.reverse() method (tác động trực tiếp vào list luôn), sắp xếp list: list.sort() method (thay đổi trực tiếp list ban đầu) and sorted() function (giữ nguyên list ban đầu)  
 inputed_list.sort() >>>print(inputed_list) >>> sort theo giá trị tăng dần 
 inputed_list.sort(reverse = True)    >>> sort theo giá trị giảm dần. 
 new_list = sorted(inputed_list)  print(input_list)  >>> list ban đầu vẫn giữ nguyên >>>print(new_list)

@@ -1,5 +1,7 @@
 # @Đoàn Ngọc Cường 6/12/2021: 2 giờ chiều. 
-'''Epsilon Bit  2 thg 12    500 điểm
+'''
+https://classroom.google.com/u/0/c/NDM1NTgzOTIwODcx/a/NDQxMzk2MTIxNjE2/details 
+Epsilon Bit  2 thg 12    500 điểm
 Bài 00. Viết chương trình sinh list mới bằng cách 
 lấy ngẫu nhiên 5 phần tử từ list gốc.
 '''
@@ -46,9 +48,13 @@ print(choice(original_list, size=(3,3), replace=False))
 #SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 596-597: truncated \UXXXXXXXX escape
 #Cách giải quyết là avoids the use of escape characters. (https://clay-atlas.com/us/blog/2019/10/27/python-english-tutorial-solved-unicodeescape-error-escape-syntaxerror/), từ \ thành \\ hoặc ...
 
+'''
+Nhận xét anh Phạm Hoàn 8.12.2021
+1 nhận xét riêng tư
 
-
-
+Epsilon Bit6 thg 12
+excellent ;)
+'''
 
 
 

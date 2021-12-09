@@ -21,3 +21,13 @@ for i in range(n): #truy cập chỉ số
 print(f'Số lượng tập gồm 2 phần tử A[i] và A[j] thỏa mãn là: {count_nghichthe}')
 
     
+"""
+Nhận xét của anh Phạm Hoàn. 
+Epsilon Bit6 thg 12   <Anh Hoàn>
+việc tính toán thế này (i-j)/(int(A[i])- int(A[j])) < 0
+sẽ phức tạp hơn so với so sánh
+mà đặc biệt đã dùng đc for j in range(i+1, n) thì chỉ còn cần so sánh A[i] với A[j] là xong
+
+Cường Đoàn Ngọc19:31
+ui, e ngốc quá :V
+"""

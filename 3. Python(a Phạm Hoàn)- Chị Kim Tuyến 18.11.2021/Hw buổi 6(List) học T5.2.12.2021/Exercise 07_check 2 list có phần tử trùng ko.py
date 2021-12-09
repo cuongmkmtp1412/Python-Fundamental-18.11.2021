@@ -24,4 +24,14 @@ else:
     print("2 list đã nhập ko có phần tử chung")   
 
 # Chặt hơn thì in ra Phần tử chung của 2 chuỗi. <Nhưng mệt quá rồi> < 7h liên tục. > 
+'''
+Nhận xét của anh Phạm Hoàn 8.12.2021
+2 nhận xét riêng tư
+Epsilon Bit6 thg 12
+tối ưu là khi flag = True, nên break luôn
+Cường Đoàn Ngọc19:46
+Dạ vâng ạ, hihi.
 
+
+
+'''
