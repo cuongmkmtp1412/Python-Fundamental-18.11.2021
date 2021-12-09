@@ -38,14 +38,10 @@ for tuple in inputed_list:
 print()  #để trên vs code, output ko dính liền với đường dẫn thư mục. 
 
 '''
-
 Những thứ hiện ra khi run program : 
-...
 List chứa các tuple con đã nhập là: [('1',), ('1', 'cuong'), ('2', 'cuong', '4')]
 Tuple có phần tử thứ 2 là nhỏ nhất, từ list ban đầu là:
 ('1', 'cuong'),('2', 'cuong', '4'),
-
-
 Dành hơn 1 tiếng để làm khá hoàn thiện bài này:
 - từ việc giúp người dùng nhập nhanh dữ liệu
 - đến việc kiểm soát các trường hợp xảy ra
