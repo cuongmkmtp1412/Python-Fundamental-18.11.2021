@@ -12,6 +12,8 @@ inputed_list.sort(reverse = True)    >>> sort theo giá trị giảm dần.
 new_list = sorted(inputed_list)  print(input_list)  >>> list ban đầu vẫn giữ nguyên >>>print(new_list)
 # A Tiến Lê 2021 hỏi mình 7/12/2021. 
 '''
+# Cách 1: Tách lấy các phần tử cuối của từng tuple con trong list, sắp xếp các phần tử cuối đó,
+        # Rồi lại duyệt list ban đầu và tìm các tuple có phần tử thứ 2 theo thứ tự đã sorted.
 
 given_list = [(2, 5), (4, 1), (0, 0), (3,5), (1,3,1)]    #Cho list chứa tuple không rỗng.
 ele_fini_list = []     # danh sách chứa các phần tử cuối mỗi tuple.(element finish of list) 
@@ -27,12 +29,24 @@ for i in newl: #duyệt từng phần tử trong list đã sắp xếp
             out_put.append(x)     
 print(out_put)
 
-            
+# Cách 2 anh Hoàn chữa- cực kì hay ho luôn. 
+# ý tưởng for i, rồi for j (chạy từ i+1) giống bài nghịch thế
 
+list_sample = [(2, 5), (4, 1), (0, 0), (3,5), (1,3,1)]
+for i in range(len(list_sample)):
+    for j in range(i+1, len(list_sample)):
+        if list_sample[i][-1] > list_sample[j][-1]:
+            list_sample[i], list_sample[j] = list_sample[j], list_sample[i]
+            # Cần sắp xếp từ bé đến lớn: Nên nếu a > b thì hoán đổi a, b = b, a
+print(list_sample)
+     
+# Cách 3: dùng sort(key = ) # key là tiêu chuẩn chúng ta muốn so sánh. 
 
+def get_list(x):
+    return x[-1]
 
-
-
-
-
+a_list = [(2, 5), (4, 1), (0, 0), (3,5), (1,3,1)]
+a_list.sort(key=get_list)    # key: tiêu chuẩn cái chúng ta so sánh. 
+# a_list.sort(key= lamda x: x[-1])    #function() đặc biệt: function lumda. 
+print(a_list)
 

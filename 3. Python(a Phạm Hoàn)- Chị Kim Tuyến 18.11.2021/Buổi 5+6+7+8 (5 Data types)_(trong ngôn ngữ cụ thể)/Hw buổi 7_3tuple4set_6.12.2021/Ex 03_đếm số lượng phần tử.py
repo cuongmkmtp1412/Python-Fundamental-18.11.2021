@@ -13,3 +13,4 @@ for i in range(len(inputed_list)): #duyệt tuple có 2 cách như list và stri
         # end = '. ' kết thúc là dấu chấm và cách ra (ko hiện space), thay vì \n
         print(f'Tức là tuple con đầu tiên trong list ban đầu là phần tử thứ {i+1}')
         quit()
+

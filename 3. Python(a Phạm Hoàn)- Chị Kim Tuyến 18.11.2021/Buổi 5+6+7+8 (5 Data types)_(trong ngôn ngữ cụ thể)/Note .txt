@@ -1,0 +1,5 @@
+So sánh data types, data structure and algorithm 
+- Data type: trong ngôn ngữ cụ thể
+- Còn data structure nó thường nói đến cấu trúc dữ liệu của một cái chung chung
+         ko quan tâm đến ngôn ngữ cụ thể: Cái ds linked list, Linked List, Stack, Queue, Graph, Binary Tree,..
+- Thuật toán là các step để giải 1 problem

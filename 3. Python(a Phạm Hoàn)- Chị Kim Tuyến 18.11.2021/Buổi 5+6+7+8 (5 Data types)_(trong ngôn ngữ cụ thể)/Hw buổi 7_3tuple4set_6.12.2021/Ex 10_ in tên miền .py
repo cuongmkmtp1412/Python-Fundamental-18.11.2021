@@ -1,4 +1,4 @@
-# Đoàn Ngọc Cường 
+# Đoàn Ngọc Cường  Thứ 5/9/12/2021
 '''
 Bài 10: Cho list sau:
 ["www.hust.edu.vn", "www.wikipedia.org", "www.asp.net", "www.amazon.com"].
@@ -30,9 +30,11 @@ outputed_suffix_list = []     #Khởi tạo list chứa các hậu tố cần go
 for i in inputed_list:    # i là từng string
     new_list = i.split('.')  # cắt {i} theo . và tạo thành new_list  # str.split() method không làm thay đổi string ban đầu
     outputed_suffix_list.append(new_list[-1])   # lấy phần tử cuối của new_list gom vào outputed_suffix_list  
-
+    
 print("Hậu tố trong các tên miền website của list đã cho là: ", end = "")  # Không muốn xuống dòng, 
 for i in outputed_suffix_list: 
     print(i, end=", ")
 print() # để trên vs code: output ko dính liền với PS C: 
 # Output: Hậu tố trong các tên miền website trong list đã cho là: vn, org, net, com, 
+
+# Anh Hoàn nhanh hơn : new_list = i.split('.')[-1]  >>> 

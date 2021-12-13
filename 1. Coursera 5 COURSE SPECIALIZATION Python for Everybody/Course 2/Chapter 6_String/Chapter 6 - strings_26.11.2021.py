@@ -9,3 +9,8 @@ text = "X-DSPAM-Confidence:    0.8475"
 find_string=text.find('0.8475')
 print(float(text[find_string:find_string+6]))    # text[1:6] thì ko lấy số 6- tương tự for x in range(1,6)
 #You should use the float() function to convert from a string to an integer => thêm float
+
+# Tận 23hr tối 10/12/2021: xem chữa bài. Quá hay ho luôn hehe. 
+find_cha = text.find(":")
+print(float(text[find_cha+1:]))     # float(    0.8475) >>>0.8475
+

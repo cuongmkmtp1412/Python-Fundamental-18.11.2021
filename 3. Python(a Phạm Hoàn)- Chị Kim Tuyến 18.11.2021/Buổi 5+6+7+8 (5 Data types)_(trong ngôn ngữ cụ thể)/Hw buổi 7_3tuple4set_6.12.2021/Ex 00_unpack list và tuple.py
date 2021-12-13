@@ -13,7 +13,7 @@ print(c)
 print(d)
 print(e)
 
-
+# Chữa bài 12.12.2021 >>> print(a, b, c, d, e, f) cho nó nhanh nha. 
 '''
 TÌM HIỂU THÊM VỀ UNPACK TRONG LIST VÀ TUPLE: 
 #https://dblog24h.com/python/unpack-tuple-va-list-trong-python-24/
@@ -53,6 +53,5 @@ print(our_tuple[1]) # [1, '1', 'cuong']
 # print(type(our_tuple[1]))   # <class 'str'>
 print(our_tuple[2])   #[1, '1', 'cuong']
 # print(type(our_tuple[2]))  # <class 'list'>
-
 # output nhìn giống nhau, nhưng kiểu dữ liệu thì khác nhau. 
 '''

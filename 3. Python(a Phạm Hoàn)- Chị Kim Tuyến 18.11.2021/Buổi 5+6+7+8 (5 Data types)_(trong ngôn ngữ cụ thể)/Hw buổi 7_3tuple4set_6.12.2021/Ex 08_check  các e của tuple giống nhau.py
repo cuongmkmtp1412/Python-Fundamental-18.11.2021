@@ -23,3 +23,12 @@ if flag == True:
 else: 
     print("Không phải tất cả các phần tử trong inputed_tuple là giống nhau.")
 
+'''
+# Nhận xét và chỉnh sửa
+2 nhận xét riêng tư
+Epsilon Bit9 thg 12
+có thể check các phần tử có = phần tử đầu tiên ko cũng đc, đỡ phải check [i] và [i+1]
+Cường Đoàn Ngọc19:39
+dạ vâng ạ ^^
+'''
+

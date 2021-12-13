@@ -1,3 +1,4 @@
+'''
 
 @ Đoàn Ngọc Cường 20210141: Do mấy nay toàn thi speaking, listening nên chuyển sang đầu tư tiếng anh nhiều. 
 - Từ 11h trưa đến 11h 45
@@ -9,3 +10,7 @@
 - 22 h thư giãn và nghỉ ngơi. 
 
 =>>> Một ngày áp suất bằng 2-3 hôm cộng lại. 
+'''
+'''8/12/2021. 
+Hello, 10 bài tập full điểm hết.
+'''

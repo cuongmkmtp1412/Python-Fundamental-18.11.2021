@@ -11,7 +11,7 @@ empty_list = []  #Hoặc _empty_list = list()  l>>> []  list rỗng- như string
 print(our_list[3][[2]])   # truy cập vào phần từ index = 2 trong phần tử index = 3 của ourlist. 
 '''
 
-'''Phép toán với list: Cộng và nhân'''
+'''Phép toán với list: Cộng và nhân 2 list như với string'''
 
 '''
 # Các method của list: 
